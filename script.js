@@ -49,7 +49,7 @@ function changeColor() {
   const selectedColor = colors[randomIndex];
   
   // Flash effect
-  colorBox.style.backgroundColor = '#ffffff'; // White color
+  colorBox.style.backgroundColor = '#000000'; // White color
   setTimeout(() => {
     colorBox.style.backgroundColor = selectedColor.code; // Revert back to the randomly selected color
   }, 100); // Adjust the duration of the flash (in milliseconds)
